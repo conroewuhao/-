@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		686915731C7C39C4007C6321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915721C7C39C4007C6321 /* main.m */; };
+		686915761C7C39C4007C6321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915751C7C39C4007C6321 /* AppDelegate.m */; };
+		686915781C7C39C4007C6321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686915771C7C39C4007C6321 /* Assets.xcassets */; };
+		6869157B1C7C39C4007C6321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686915791C7C39C4007C6321 /* LaunchScreen.storyboard */; };
+		686915841C7C39D2007C6321 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915831C7C39D2007C6321 /* RootViewController.m */; };
+		686915871C7C3B4A007C6321 /* BorderAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915861C7C3B4A007C6321 /* BorderAnimationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6869156E1C7C39C4007C6321 /* 囧昊动画练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "囧昊动画练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		686915721C7C39C4007C6321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		686915741C7C39C4007C6321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		686915751C7C39C4007C6321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		686915771C7C39C4007C6321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6869157A1C7C39C4007C6321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6869157C1C7C39C4007C6321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		686915821C7C39D2007C6321 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		686915831C7C39D2007C6321 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		686915851C7C3B4A007C6321 /* BorderAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderAnimationViewController.h; sourceTree = "<group>"; };
+		686915861C7C3B4A007C6321 /* BorderAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderAnimationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6869156B1C7C39C4007C6321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		686915651C7C39C4007C6321 = {
+			isa = PBXGroup;
+			children = (
+				686915701C7C39C4007C6321 /* 囧昊动画练习 */,
+				6869156F1C7C39C4007C6321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6869156F1C7C39C4007C6321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6869156E1C7C39C4007C6321 /* 囧昊动画练习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		686915701C7C39C4007C6321 /* 囧昊动画练习 */ = {
+			isa = PBXGroup;
+			children = (
+				686915741C7C39C4007C6321 /* AppDelegate.h */,
+				686915751C7C39C4007C6321 /* AppDelegate.m */,
+				686915771C7C39C4007C6321 /* Assets.xcassets */,
+				686915791C7C39C4007C6321 /* LaunchScreen.storyboard */,
+				6869157C1C7C39C4007C6321 /* Info.plist */,
+				686915711C7C39C4007C6321 /* Supporting Files */,
+				686915821C7C39D2007C6321 /* RootViewController.h */,
+				686915831C7C39D2007C6321 /* RootViewController.m */,
+				686915851C7C3B4A007C6321 /* BorderAnimationViewController.h */,
+				686915861C7C3B4A007C6321 /* BorderAnimationViewController.m */,
+			);
+			path = "囧昊动画练习";
+			sourceTree = "<group>";
+		};
+		686915711C7C39C4007C6321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				686915721C7C39C4007C6321 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6869156D1C7C39C4007C6321 /* 囧昊动画练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6869157F1C7C39C4007C6321 /* Build configuration list for PBXNativeTarget "囧昊动画练习" */;
+			buildPhases = (
+				6869156A1C7C39C4007C6321 /* Sources */,
+				6869156B1C7C39C4007C6321 /* Frameworks */,
+				6869156C1C7C39C4007C6321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "囧昊动画练习";
+			productName = "囧昊动画练习";
+			productReference = 6869156E1C7C39C4007C6321 /* 囧昊动画练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		686915661C7C39C4007C6321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wuhao;
+				TargetAttributes = {
+					6869156D1C7C39C4007C6321 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 686915691C7C39C4007C6321 /* Build configuration list for PBXProject "囧昊动画练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 686915651C7C39C4007C6321;
+			productRefGroup = 6869156F1C7C39C4007C6321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6869156D1C7C39C4007C6321 /* 囧昊动画练习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6869156C1C7C39C4007C6321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686915781C7C39C4007C6321 /* Assets.xcassets in Resources */,
+				6869157B1C7C39C4007C6321 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6869156A1C7C39C4007C6321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686915761C7C39C4007C6321 /* AppDelegate.m in Sources */,
+				686915731C7C39C4007C6321 /* main.m in Sources */,
+				686915841C7C39D2007C6321 /* RootViewController.m in Sources */,
+				686915871C7C3B4A007C6321 /* BorderAnimationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		686915791C7C39C4007C6321 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6869157A1C7C39C4007C6321 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6869157D1C7C39C4007C6321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6869157E1C7C39C4007C6321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		686915801C7C39C4007C6321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "囧昊动画练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wuhao.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		686915811C7C39C4007C6321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "囧昊动画练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wuhao.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		686915691C7C39C4007C6321 /* Build configuration list for PBXProject "囧昊动画练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6869157D1C7C39C4007C6321 /* Debug */,
+				6869157E1C7C39C4007C6321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6869157F1C7C39C4007C6321 /* Build configuration list for PBXNativeTarget "囧昊动画练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				686915801C7C39C4007C6321 /* Debug */,
+				686915811C7C39C4007C6321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 686915661C7C39C4007C6321 /* Project object */;
+}
