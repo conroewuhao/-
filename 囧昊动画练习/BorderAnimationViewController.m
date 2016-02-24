@@ -7,6 +7,7 @@
 //
 
 #import "BorderAnimationViewController.h"
+#import "wuhaoView.h"
 
 #warning Needs borderAnimation
 
@@ -22,6 +23,8 @@
     
     CGRect newRect=self.navigationController.navigationBar.frame;
     
+
+
     CALayer *redLayer=[CALayer layer];
     redLayer.frame=CGRectMake(newRect.origin.x, newRect.origin.y+100, 140, 140);
     redLayer.position=self.view.center;
@@ -29,7 +32,6 @@
     redLayer.borderColor=[UIColor clearColor].CGColor;
     redLayer.borderWidth=5;
     [self.view.layer addSublayer:redLayer];
-    
     
     //显示动画属性borderColor
     CABasicAnimation *anim = [CABasicAnimation animationWithKeyPath:@"borderColor"];
@@ -43,6 +45,12 @@
     // anim.duration = [CATransaction animationDuration];
     anim.timingFunction = [CATransaction animationTimingFunction];
     [redLayer addAnimation:anim forKey:@"myAnimation"];
+    
+
+    wuhaoView *testView=[[wuhaoView alloc]initWithFrame:CGRectMake(100, 240, 40, 40)];
+    [self.view addSubview:testView];
+    
+    
 
 }
 

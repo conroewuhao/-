@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomPropertyViewController">
+            <connections>
+                <outlet property="datePicker" destination="Wc6-GQ-VV7" id="yRQ-oe-cPw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Wc6-GQ-VV7">
+                    <rect key="frame" x="135" y="311" width="320" height="216"/>
+                    <date key="date" timeIntervalSinceReferenceDate="477970466.81388301">
+                        <!--2016-02-24 01:34:26 +0000-->
+                    </date>
+                    <connections>
+                        <action selector="timeChange:" destination="-1" eventType="valueChanged" id="Vhk-3P-nX9"/>
+                    </connections>
+                </datePicker>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Wc6-GQ-VV7" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-5" id="TKW-b3-V6b"/>
+                <constraint firstItem="Wc6-GQ-VV7" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="119" id="hRA-CQ-fyh"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

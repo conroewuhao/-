@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6802FC341C7D3FE1003E82AB /* CustomPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802FC321C7D3FE1003E82AB /* CustomPropertyViewController.m */; };
+		6802FC351C7D3FE1003E82AB /* CustomPropertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6802FC331C7D3FE1003E82AB /* CustomPropertyViewController.xib */; };
 		686915731C7C39C4007C6321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915721C7C39C4007C6321 /* main.m */; };
 		686915761C7C39C4007C6321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915751C7C39C4007C6321 /* AppDelegate.m */; };
 		686915781C7C39C4007C6321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686915771C7C39C4007C6321 /* Assets.xcassets */; };
 		6869157B1C7C39C4007C6321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686915791C7C39C4007C6321 /* LaunchScreen.storyboard */; };
 		686915841C7C39D2007C6321 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915831C7C39D2007C6321 /* RootViewController.m */; };
 		686915871C7C3B4A007C6321 /* BorderAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915861C7C3B4A007C6321 /* BorderAnimationViewController.m */; };
+		68BF8B8B1C7D5AF50065E486 /* wuhaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BF8B8A1C7D5AF50065E486 /* wuhaoView.m */; };
+		68D2BD0C1C7D46D30056DFBE /* ClockFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2BD0B1C7D46D30056DFBE /* ClockFace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6802FC311C7D3FE1003E82AB /* CustomPropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPropertyViewController.h; sourceTree = "<group>"; };
+		6802FC321C7D3FE1003E82AB /* CustomPropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPropertyViewController.m; sourceTree = "<group>"; };
+		6802FC331C7D3FE1003E82AB /* CustomPropertyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPropertyViewController.xib; sourceTree = "<group>"; };
+		682CC6951C7D4A36008C59FF /* 囧昊动画练习.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "囧昊动画练习.pch"; sourceTree = "<group>"; };
 		6869156E1C7C39C4007C6321 /* 囧昊动画练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "囧昊动画练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		686915721C7C39C4007C6321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		686915741C7C39C4007C6321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,6 +35,10 @@
 		686915831C7C39D2007C6321 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		686915851C7C3B4A007C6321 /* BorderAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderAnimationViewController.h; sourceTree = "<group>"; };
 		686915861C7C3B4A007C6321 /* BorderAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderAnimationViewController.m; sourceTree = "<group>"; };
+		68BF8B891C7D5AF50065E486 /* wuhaoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wuhaoView.h; sourceTree = "<group>"; };
+		68BF8B8A1C7D5AF50065E486 /* wuhaoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wuhaoView.m; sourceTree = "<group>"; };
+		68D2BD0A1C7D46D30056DFBE /* ClockFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockFace.h; sourceTree = "<group>"; };
+		68D2BD0B1C7D46D30056DFBE /* ClockFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockFace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 		686915701C7C39C4007C6321 /* 囧昊动画练习 */ = {
 			isa = PBXGroup;
 			children = (
+				68BF8B851C7D58110065E486 /* ViewControllers */,
 				686915741C7C39C4007C6321 /* AppDelegate.h */,
 				686915751C7C39C4007C6321 /* AppDelegate.m */,
 				686915771C7C39C4007C6321 /* Assets.xcassets */,
@@ -67,8 +80,9 @@
 				686915711C7C39C4007C6321 /* Supporting Files */,
 				686915821C7C39D2007C6321 /* RootViewController.h */,
 				686915831C7C39D2007C6321 /* RootViewController.m */,
-				686915851C7C3B4A007C6321 /* BorderAnimationViewController.h */,
-				686915861C7C3B4A007C6321 /* BorderAnimationViewController.m */,
+				682CC6951C7D4A36008C59FF /* 囧昊动画练习.pch */,
+				68BF8B891C7D5AF50065E486 /* wuhaoView.h */,
+				68BF8B8A1C7D5AF50065E486 /* wuhaoView.m */,
 			);
 			path = "囧昊动画练习";
 			sourceTree = "<group>";
@@ -79,6 +93,44 @@
 				686915721C7C39C4007C6321 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68BF8B851C7D58110065E486 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				68BF8B871C7D58310065E486 /* 边框颜色动画 */,
+				68BF8B861C7D58240065E486 /* 自定义属性动画 */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		68BF8B861C7D58240065E486 /* 自定义属性动画 */ = {
+			isa = PBXGroup;
+			children = (
+				68BF8B881C7D58520065E486 /* 时钟layer */,
+				6802FC311C7D3FE1003E82AB /* CustomPropertyViewController.h */,
+				6802FC321C7D3FE1003E82AB /* CustomPropertyViewController.m */,
+				6802FC331C7D3FE1003E82AB /* CustomPropertyViewController.xib */,
+			);
+			name = "自定义属性动画";
+			sourceTree = "<group>";
+		};
+		68BF8B871C7D58310065E486 /* 边框颜色动画 */ = {
+			isa = PBXGroup;
+			children = (
+				686915851C7C3B4A007C6321 /* BorderAnimationViewController.h */,
+				686915861C7C3B4A007C6321 /* BorderAnimationViewController.m */,
+			);
+			name = "边框颜色动画";
+			sourceTree = "<group>";
+		};
+		68BF8B881C7D58520065E486 /* 时钟layer */ = {
+			isa = PBXGroup;
+			children = (
+				68D2BD0A1C7D46D30056DFBE /* ClockFace.h */,
+				68D2BD0B1C7D46D30056DFBE /* ClockFace.m */,
+			);
+			name = "时钟layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6802FC351C7D3FE1003E82AB /* CustomPropertyViewController.xib in Resources */,
 				686915781C7C39C4007C6321 /* Assets.xcassets in Resources */,
 				6869157B1C7C39C4007C6321 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -150,6 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D2BD0C1C7D46D30056DFBE /* ClockFace.m in Sources */,
+				6802FC341C7D3FE1003E82AB /* CustomPropertyViewController.m in Sources */,
+				68BF8B8B1C7D5AF50065E486 /* wuhaoView.m in Sources */,
 				686915761C7C39C4007C6321 /* AppDelegate.m in Sources */,
 				686915731C7C39C4007C6321 /* main.m in Sources */,
 				686915841C7C39D2007C6321 /* RootViewController.m in Sources */,
@@ -197,6 +253,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "囧昊动画练习/囧昊动画练习.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -207,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -238,13 +296,15 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "囧昊动画练习/囧昊动画练习.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -292,6 +352,7 @@
 				686915811C7C39C4007C6321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

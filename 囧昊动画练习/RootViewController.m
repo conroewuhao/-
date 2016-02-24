@@ -8,6 +8,8 @@
 
 #import "RootViewController.h"
 #import "BorderAnimationViewController.h"
+#import "CustomPropertyViewController.h"
+
 
 @interface RootViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
@@ -29,7 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    dataArray=@[@"边框动画"];
+    dataArray=@[@"边框动画",@"时钟自定义动画"];
     
     
     table=[[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
@@ -72,16 +74,22 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
     
+
+    
     [table deselectRowAtIndexPath:indexPath animated:YES];
     
-    
     BorderAnimationViewController *borderAnimationVC=[[BorderAnimationViewController alloc]init];
+    CustomPropertyViewController *customPropertyAnimationVC=[[CustomPropertyViewController alloc]initWithNibName:@"CustomPropertyViewController" bundle:nil];
     
     switch (indexPath.row) {
         case 0:
             [self.navigationController pushViewController:borderAnimationVC animated:YES];
 
             break;
+            
+          case 1:
+            
+            [self.navigationController pushViewController:customPropertyAnimationVC animated:YES];
             
         default:
             nil;
