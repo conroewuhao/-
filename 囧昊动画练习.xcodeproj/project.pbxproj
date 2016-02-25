@@ -16,6 +16,8 @@
 		686915841C7C39D2007C6321 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915831C7C39D2007C6321 /* RootViewController.m */; };
 		686915871C7C3B4A007C6321 /* BorderAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915861C7C3B4A007C6321 /* BorderAnimationViewController.m */; };
 		68BF8B8B1C7D5AF50065E486 /* wuhaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BF8B8A1C7D5AF50065E486 /* wuhaoView.m */; };
+		68C8DF8A1C7EDC2F0064E35A /* RYCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8DF891C7EDC2F0064E35A /* RYCuteView.m */; };
+		68C8DF8D1C7EDCB40064E35A /* GuodongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8DF8C1C7EDCB40064E35A /* GuodongViewController.m */; };
 		68D2BD0C1C7D46D30056DFBE /* ClockFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2BD0B1C7D46D30056DFBE /* ClockFace.m */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,10 @@
 		686915861C7C3B4A007C6321 /* BorderAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderAnimationViewController.m; sourceTree = "<group>"; };
 		68BF8B891C7D5AF50065E486 /* wuhaoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wuhaoView.h; sourceTree = "<group>"; };
 		68BF8B8A1C7D5AF50065E486 /* wuhaoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wuhaoView.m; sourceTree = "<group>"; };
+		68C8DF881C7EDC2F0064E35A /* RYCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCuteView.h; sourceTree = "<group>"; };
+		68C8DF891C7EDC2F0064E35A /* RYCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCuteView.m; sourceTree = "<group>"; };
+		68C8DF8B1C7EDCB40064E35A /* GuodongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuodongViewController.h; sourceTree = "<group>"; };
+		68C8DF8C1C7EDCB40064E35A /* GuodongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuodongViewController.m; sourceTree = "<group>"; };
 		68D2BD0A1C7D46D30056DFBE /* ClockFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockFace.h; sourceTree = "<group>"; };
 		68D2BD0B1C7D46D30056DFBE /* ClockFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockFace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,12 +80,12 @@
 				68BF8B851C7D58110065E486 /* ViewControllers */,
 				686915741C7C39C4007C6321 /* AppDelegate.h */,
 				686915751C7C39C4007C6321 /* AppDelegate.m */,
+				686915821C7C39D2007C6321 /* RootViewController.h */,
+				686915831C7C39D2007C6321 /* RootViewController.m */,
 				686915771C7C39C4007C6321 /* Assets.xcassets */,
 				686915791C7C39C4007C6321 /* LaunchScreen.storyboard */,
 				6869157C1C7C39C4007C6321 /* Info.plist */,
 				686915711C7C39C4007C6321 /* Supporting Files */,
-				686915821C7C39D2007C6321 /* RootViewController.h */,
-				686915831C7C39D2007C6321 /* RootViewController.m */,
 				682CC6951C7D4A36008C59FF /* 囧昊动画练习.pch */,
 				68BF8B891C7D5AF50065E486 /* wuhaoView.h */,
 				68BF8B8A1C7D5AF50065E486 /* wuhaoView.m */,
@@ -98,6 +104,7 @@
 		68BF8B851C7D58110065E486 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				68C8DF871C7EDC100064E35A /* 果冻效果实现 */,
 				68BF8B871C7D58310065E486 /* 边框颜色动画 */,
 				68BF8B861C7D58240065E486 /* 自定义属性动画 */,
 			);
@@ -131,6 +138,17 @@
 				68D2BD0B1C7D46D30056DFBE /* ClockFace.m */,
 			);
 			name = "时钟layer";
+			sourceTree = "<group>";
+		};
+		68C8DF871C7EDC100064E35A /* 果冻效果实现 */ = {
+			isa = PBXGroup;
+			children = (
+				68C8DF881C7EDC2F0064E35A /* RYCuteView.h */,
+				68C8DF891C7EDC2F0064E35A /* RYCuteView.m */,
+				68C8DF8B1C7EDCB40064E35A /* GuodongViewController.h */,
+				68C8DF8C1C7EDCB40064E35A /* GuodongViewController.m */,
+			);
+			name = "果冻效果实现";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,11 +222,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				68D2BD0C1C7D46D30056DFBE /* ClockFace.m in Sources */,
+				68C8DF8D1C7EDCB40064E35A /* GuodongViewController.m in Sources */,
 				6802FC341C7D3FE1003E82AB /* CustomPropertyViewController.m in Sources */,
 				68BF8B8B1C7D5AF50065E486 /* wuhaoView.m in Sources */,
 				686915761C7C39C4007C6321 /* AppDelegate.m in Sources */,
 				686915731C7C39C4007C6321 /* main.m in Sources */,
 				686915841C7C39D2007C6321 /* RootViewController.m in Sources */,
+				68C8DF8A1C7EDC2F0064E35A /* RYCuteView.m in Sources */,
 				686915871C7C3B4A007C6321 /* BorderAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

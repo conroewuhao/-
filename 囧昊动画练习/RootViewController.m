@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "BorderAnimationViewController.h"
 #import "CustomPropertyViewController.h"
+#import "GuodongViewController.h"
 
 
 @interface RootViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -31,7 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    dataArray=@[@"边框动画",@"时钟自定义动画"];
+    dataArray=@[@"边框动画",@"时钟自定义动画",@"果冻动画"];
     
     
     table=[[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
@@ -78,18 +79,24 @@
     
     [table deselectRowAtIndexPath:indexPath animated:YES];
     
+    //边框动画
     BorderAnimationViewController *borderAnimationVC=[[BorderAnimationViewController alloc]init];
+    //自定义属性动画,钟表动画
     CustomPropertyViewController *customPropertyAnimationVC=[[CustomPropertyViewController alloc]initWithNibName:@"CustomPropertyViewController" bundle:nil];
+    //果冻动画
+    GuodongViewController  *guodongAnimationVC=[[GuodongViewController alloc]init];
     
     switch (indexPath.row) {
         case 0:
             [self.navigationController pushViewController:borderAnimationVC animated:YES];
-
             break;
             
           case 1:
-            
             [self.navigationController pushViewController:customPropertyAnimationVC animated:YES];
+            
+            case 2:
+            [self.navigationController pushViewController:guodongAnimationVC animated:YES];
+            
             
         default:
             nil;

@@ -9,7 +9,7 @@
 #import "BorderAnimationViewController.h"
 #import "wuhaoView.h"
 
-#warning Needs borderAnimation
+
 
 @interface BorderAnimationViewController ()
 
