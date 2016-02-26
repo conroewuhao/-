@@ -11,6 +11,8 @@
 #import "CustomPropertyViewController.h"
 #import "GuodongViewController.h"
 
+/*********************测试来赚助手**********************************************/
+#import "HelperViewController.h"
 
 @interface RootViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
@@ -26,15 +28,12 @@
 @implementation RootViewController
 
 
-
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    dataArray=@[@"边框动画",@"时钟自定义动画",@"果冻动画"];
+    dataArray=@[@"边框动画",@"时钟自定义动画",@"果冻动画",@"来赚助手"];
     
-    
+
     table=[[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
     table.delegate=self;
     table.dataSource=self;
@@ -74,9 +73,6 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    
-
-    
     [table deselectRowAtIndexPath:indexPath animated:YES];
     
     //边框动画
@@ -85,6 +81,11 @@
     CustomPropertyViewController *customPropertyAnimationVC=[[CustomPropertyViewController alloc]initWithNibName:@"CustomPropertyViewController" bundle:nil];
     //果冻动画
     GuodongViewController  *guodongAnimationVC=[[GuodongViewController alloc]init];
+    
+
+    HelperViewController *laizhuanHelp=[[HelperViewController alloc]init];
+
+    
     
     switch (indexPath.row) {
         case 0:
@@ -96,6 +97,10 @@
             
             case 2:
             [self.navigationController pushViewController:guodongAnimationVC animated:YES];
+            
+           case 3 :
+            [self.navigationController pushViewController:laizhuanHelp animated:YES];
+            
             
             
         default:

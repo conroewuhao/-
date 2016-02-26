@@ -18,6 +18,8 @@
 		68BF8B8B1C7D5AF50065E486 /* wuhaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BF8B8A1C7D5AF50065E486 /* wuhaoView.m */; };
 		68C8DF8A1C7EDC2F0064E35A /* RYCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8DF891C7EDC2F0064E35A /* RYCuteView.m */; };
 		68C8DF8D1C7EDCB40064E35A /* GuodongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8DF8C1C7EDCB40064E35A /* GuodongViewController.m */; };
+		68C8DF911C804BB70064E35A /* HelperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8DF901C804BB70064E35A /* HelperViewController.m */; };
+		68C8DF941C80596B0064E35A /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8DF931C80596B0064E35A /* UIColor+HexColor.m */; };
 		68D2BD0C1C7D46D30056DFBE /* ClockFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2BD0B1C7D46D30056DFBE /* ClockFace.m */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,10 @@
 		68C8DF891C7EDC2F0064E35A /* RYCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCuteView.m; sourceTree = "<group>"; };
 		68C8DF8B1C7EDCB40064E35A /* GuodongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuodongViewController.h; sourceTree = "<group>"; };
 		68C8DF8C1C7EDCB40064E35A /* GuodongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuodongViewController.m; sourceTree = "<group>"; };
+		68C8DF8F1C804BB70064E35A /* HelperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperViewController.h; sourceTree = "<group>"; };
+		68C8DF901C804BB70064E35A /* HelperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperViewController.m; sourceTree = "<group>"; };
+		68C8DF921C80596B0064E35A /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		68C8DF931C80596B0064E35A /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 		68D2BD0A1C7D46D30056DFBE /* ClockFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockFace.h; sourceTree = "<group>"; };
 		68D2BD0B1C7D46D30056DFBE /* ClockFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockFace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +110,7 @@
 		68BF8B851C7D58110065E486 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				68C8DF8E1C804B720064E35A /* 来赚助手帮助页面(无动画) */,
 				68C8DF871C7EDC100064E35A /* 果冻效果实现 */,
 				68BF8B871C7D58310065E486 /* 边框颜色动画 */,
 				68BF8B861C7D58240065E486 /* 自定义属性动画 */,
@@ -149,6 +156,17 @@
 				68C8DF8C1C7EDCB40064E35A /* GuodongViewController.m */,
 			);
 			name = "果冻效果实现";
+			sourceTree = "<group>";
+		};
+		68C8DF8E1C804B720064E35A /* 来赚助手帮助页面(无动画) */ = {
+			isa = PBXGroup;
+			children = (
+				68C8DF8F1C804BB70064E35A /* HelperViewController.h */,
+				68C8DF901C804BB70064E35A /* HelperViewController.m */,
+				68C8DF921C80596B0064E35A /* UIColor+HexColor.h */,
+				68C8DF931C80596B0064E35A /* UIColor+HexColor.m */,
+			);
+			name = "来赚助手帮助页面(无动画)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +245,8 @@
 				68BF8B8B1C7D5AF50065E486 /* wuhaoView.m in Sources */,
 				686915761C7C39C4007C6321 /* AppDelegate.m in Sources */,
 				686915731C7C39C4007C6321 /* main.m in Sources */,
+				68C8DF941C80596B0064E35A /* UIColor+HexColor.m in Sources */,
+				68C8DF911C804BB70064E35A /* HelperViewController.m in Sources */,
 				686915841C7C39D2007C6321 /* RootViewController.m in Sources */,
 				68C8DF8A1C7EDC2F0064E35A /* RYCuteView.m in Sources */,
 				686915871C7C3B4A007C6321 /* BorderAnimationViewController.m in Sources */,
