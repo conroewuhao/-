@@ -9,7 +9,7 @@
 #import "CustomPropertyViewController.h"
 #import "ClockFace.h"
 
-@interface CustomPropertyViewController ()
+@interface CustomPropertyViewController ()<UINavigationControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 @property(nonatomic,strong)ClockFace *clockFace;
 
@@ -18,10 +18,43 @@
 
 @implementation CustomPropertyViewController
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.view.backgroundColor=[UIColor whiteColor];
+}
+
+-(void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
  
+    self.view.backgroundColor=[UIColor whiteColor];
+    
     self.clockFace = [[ClockFace alloc] init];
     self.clockFace.position = CGPointMake(self.view.bounds.size.width / 2, 150+40);
     self.clockFace.position = CGPointMake(self.view.center.x, self.view.center.y);

@@ -32,7 +32,7 @@
     [super viewDidLoad];
     
     dataArray=@[@"边框动画",@"时钟自定义动画",@"果冻动画",@"来赚助手"];
-    
+    self.view.backgroundColor=[UIColor whiteColor];
 
     table=[[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
     table.delegate=self;
@@ -86,7 +86,6 @@
     HelperViewController *laizhuanHelp=[[HelperViewController alloc]init];
 
     
-    
     switch (indexPath.row) {
         case 0:
             [self.navigationController pushViewController:borderAnimationVC animated:YES];
@@ -94,18 +93,16 @@
             
           case 1:
             [self.navigationController pushViewController:customPropertyAnimationVC animated:YES];
-            
+            break;
+
             case 2:
             [self.navigationController pushViewController:guodongAnimationVC animated:YES];
+            break;
             
            case 3 :
             [self.navigationController pushViewController:laizhuanHelp animated:YES];
-            
-            
-            
-        default:
-            nil;
             break;
+       
     }
 
 }

@@ -21,10 +21,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.view.backgroundColor=[UIColor whiteColor];
+    
+    
     CGRect newRect=self.navigationController.navigationBar.frame;
     
-
-
     CALayer *redLayer=[CALayer layer];
     redLayer.frame=CGRectMake(newRect.origin.x, newRect.origin.y+100, 140, 140);
     redLayer.position=self.view.center;
