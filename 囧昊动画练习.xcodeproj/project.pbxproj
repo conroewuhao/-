@@ -107,6 +107,9 @@
 		6869157B1C7C39C4007C6321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686915791C7C39C4007C6321 /* LaunchScreen.storyboard */; };
 		686915841C7C39D2007C6321 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915831C7C39D2007C6321 /* RootViewController.m */; };
 		686915871C7C3B4A007C6321 /* BorderAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686915861C7C3B4A007C6321 /* BorderAnimationViewController.m */; };
+		68A6C83F1C8841F800F9E62D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A6C83A1C8841F800F9E62D /* UIView+Frame.m */; };
+		68A6C8401C8841F800F9E62D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A6C83C1C8841F800F9E62D /* ViewController.m */; };
+		68A6C8411C8841F800F9E62D /* SCFreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A6C83E1C8841F800F9E62D /* SCFreshView.m */; };
 		68BF8B8B1C7D5AF50065E486 /* wuhaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BF8B8A1C7D5AF50065E486 /* wuhaoView.m */; };
 		68C8DF8A1C7EDC2F0064E35A /* RYCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8DF891C7EDC2F0064E35A /* RYCuteView.m */; };
 		68C8DF8D1C7EDCB40064E35A /* GuodongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8DF8C1C7EDCB40064E35A /* GuodongViewController.m */; };
@@ -306,6 +309,12 @@
 		686915831C7C39D2007C6321 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		686915851C7C3B4A007C6321 /* BorderAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderAnimationViewController.h; sourceTree = "<group>"; };
 		686915861C7C3B4A007C6321 /* BorderAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderAnimationViewController.m; sourceTree = "<group>"; };
+		68A6C8391C8841F800F9E62D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		68A6C83A1C8841F800F9E62D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		68A6C83B1C8841F800F9E62D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68A6C83C1C8841F800F9E62D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68A6C83D1C8841F800F9E62D /* SCFreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFreshView.h; sourceTree = "<group>"; };
+		68A6C83E1C8841F800F9E62D /* SCFreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFreshView.m; sourceTree = "<group>"; };
 		68BF8B891C7D5AF50065E486 /* wuhaoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wuhaoView.h; sourceTree = "<group>"; };
 		68BF8B8A1C7D5AF50065E486 /* wuhaoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wuhaoView.m; sourceTree = "<group>"; };
 		68C8DF881C7EDC2F0064E35A /* RYCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCuteView.h; sourceTree = "<group>"; };
@@ -663,9 +672,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		68A6C8381C8841D000F9E62D /* 仿qq下拉刷新 */ = {
+			isa = PBXGroup;
+			children = (
+				68A6C8391C8841F800F9E62D /* UIView+Frame.h */,
+				68A6C83A1C8841F800F9E62D /* UIView+Frame.m */,
+				68A6C83B1C8841F800F9E62D /* ViewController.h */,
+				68A6C83C1C8841F800F9E62D /* ViewController.m */,
+				68A6C83D1C8841F800F9E62D /* SCFreshView.h */,
+				68A6C83E1C8841F800F9E62D /* SCFreshView.m */,
+			);
+			name = "仿qq下拉刷新";
+			sourceTree = "<group>";
+		};
 		68BF8B851C7D58110065E486 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				68A6C8381C8841D000F9E62D /* 仿qq下拉刷新 */,
 				68C8DF8E1C804B720064E35A /* 来赚助手帮助页面(无动画) */,
 				68C8DF871C7EDC100064E35A /* 果冻效果实现 */,
 				68BF8B871C7D58310065E486 /* 边框颜色动画 */,
@@ -855,10 +878,12 @@
 				6835E8DB1C8569F0001FF66B /* YYTextContainerView.m in Sources */,
 				6835E8F41C8569F0001FF66B /* YYReachability.m in Sources */,
 				6835E8F51C8569F0001FF66B /* YYSentinel.m in Sources */,
+				68A6C8411C8841F800F9E62D /* SCFreshView.m in Sources */,
 				6835E8BD1C8569F0001FF66B /* UIColor+YYAdd.m in Sources */,
 				6835E8F71C8569F0001FF66B /* YYThreadSafeDictionary.m in Sources */,
 				6835E8D61C8569F0001FF66B /* YYSpriteSheetImage.m in Sources */,
 				686915731C7C39C4007C6321 /* main.m in Sources */,
+				68A6C83F1C8841F800F9E62D /* UIView+Frame.m in Sources */,
 				6835E8E91C8569F0001FF66B /* YYTextParser.m in Sources */,
 				6835E8EE1C8569F0001FF66B /* YYTextView.m in Sources */,
 				6835E8EB1C8569F0001FF66B /* YYTextRunDelegate.m in Sources */,
@@ -877,6 +902,7 @@
 				68C8DF911C804BB70064E35A /* HelperViewController.m in Sources */,
 				6835E8AC1C8569F0001FF66B /* NSData+YYAdd.m in Sources */,
 				6835E8CF1C8569F0001FF66B /* UIButton+YYWebImage.m in Sources */,
+				68A6C8401C8841F800F9E62D /* ViewController.m in Sources */,
 				6835E8C91C8569F0001FF66B /* YYDiskCache.m in Sources */,
 				6835E8AE1C8569F0001FF66B /* NSDictionary+YYAdd.m in Sources */,
 				6835E8DF1C8569F0001FF66B /* YYTextKeyboardManager.m in Sources */,

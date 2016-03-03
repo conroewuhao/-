@@ -10,6 +10,8 @@
 #import "BorderAnimationViewController.h"
 #import "CustomPropertyViewController.h"
 #import "GuodongViewController.h"
+#import "ViewController.h"
+
 
 /*********************测试来赚助手**********************************************/
 #import "HelperViewController.h"
@@ -31,7 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    dataArray=@[@"边框动画",@"时钟自定义动画",@"果冻动画",@"来赚助手"];
+    dataArray=@[@"边框动画",@"时钟自定义动画",@"果冻动画",@"来赚助手",@"qq下拉刷新"];
     self.view.backgroundColor=[UIColor whiteColor];
 
     table=[[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
@@ -86,6 +88,10 @@
     HelperViewController *laizhuanHelp=[[HelperViewController alloc]init];
 
     
+    //qq下拉刷新动画
+    ViewController *qqVC=[[ViewController alloc]init];
+    
+    
     switch (indexPath.row) {
         case 0:
             [self.navigationController pushViewController:borderAnimationVC animated:YES];
@@ -102,7 +108,10 @@
            case 3 :
             [self.navigationController pushViewController:laizhuanHelp animated:YES];
             break;
-       
+            
+            case 4:
+            [self.navigationController pushViewController:qqVC animated:YES];
+            break;
     }
 
 }
