@@ -13,6 +13,7 @@
 #import "ViewController.h"
 
 
+
 /*********************测试来赚助手**********************************************/
 #import "HelperViewController.h"
 
@@ -33,7 +34,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    dataArray=@[@"边框动画",@"时钟自定义动画",@"果冻动画",@"来赚助手",@"qq下拉刷新"];
+    dataArray=@[@"边框动画",@"时钟自定义动画",@"果冻动画",@"来赚助手",@"qq下拉刷新",@"添加摇动支持"];
     self.view.backgroundColor=[UIColor whiteColor];
 
     table=[[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
@@ -60,9 +61,6 @@
     
 }
 
-
-
-
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
 }
@@ -84,7 +82,7 @@
     //果冻动画
     GuodongViewController  *guodongAnimationVC=[[GuodongViewController alloc]init];
     
-
+    //来赚助手测试(厚步来赚)
     HelperViewController *laizhuanHelp=[[HelperViewController alloc]init];
 
     

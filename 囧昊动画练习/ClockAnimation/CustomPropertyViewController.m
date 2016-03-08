@@ -9,6 +9,9 @@
 #import "CustomPropertyViewController.h"
 #import "ClockFace.h"
 
+#define screenWidth [UIScreen mainScreen].bounds.size.width
+#define screenHeight [UIScreen mainScreen].bounds.size.height
+
 @interface CustomPropertyViewController ()<UINavigationControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 @property(nonatomic,strong)ClockFace *clockFace;
@@ -30,21 +33,7 @@
 
 
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -56,8 +45,12 @@
     self.view.backgroundColor=[UIColor whiteColor];
     
     self.clockFace = [[ClockFace alloc] init];
-    self.clockFace.position = CGPointMake(self.view.bounds.size.width / 2, 150+40);
-    self.clockFace.position = CGPointMake(self.view.center.x, self.view.center.y);
+    self.clockFace.position = CGPointMake(screenWidth/2,screenHeight/2-100);
+    
+
+    //self.clockFace.position = CGPointMake(self.view.center.x, self.view.center.y);
+    
+    
     [self.view.layer addSublayer:self.clockFace];
     //set default time
     self.clockFace.time = [NSDate date];
